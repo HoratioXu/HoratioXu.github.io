@@ -41,27 +41,49 @@
     align-items: center;
 
 }
+.con3>div{
+    position: relative;
+    width: 100%;
+}
 
-.con3 svg {
+.con3>div>svg {
+    position: relative;
     width: 3em;
     padding: .5em;
+    transform:scale(1);
     /*outline: #222629 1px solid;*/
 }
-.con3 svg:hover{
+/*.con3 svg:hover{
     transform:scale(1.5);
     border-radius: .5em;
     border: 2px solid #888;
-  /*  background-color: #ffc802;*/
+  !*  background-color: #ffc802;*!
+}*/
+.con3>div>span{
+    text-decoration: underline #888888;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    display: none;
 }
 
-/*.carousel {
-    max-height: 400px;
+.carousel {
     overflow: hidden;
 }
-.carousel.carousel-item img {
+.simg{
     width: 100%;
-    height: auto;
-}*/
+    height: 90vh;
+    background: no-repeat center center;
+    background-size: cover;
+}
+
+#interest p{
+    font-weight: normal;
+}
+
+#slide1 h3{
+    color: white;
+}
 /*
 .conloding{
     margin: 0 auto;
