@@ -583,5 +583,5 @@
 			});
 
 	};
-
+	console.log('test commit 2');
 })(jQuery);
