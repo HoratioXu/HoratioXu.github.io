@@ -585,3 +585,5 @@
 	};
 	console.log('test commit 2');
 })(jQuery);
+
+console.log('test commit 1');
